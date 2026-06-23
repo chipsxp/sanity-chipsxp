@@ -1,6 +1,7 @@
 import { PortableText, PortableTextReactComponents, PortableTextTypeComponentProps } from '@portabletext/react'
 import { HeroBlock, HeroBlockData } from './blocks/HeroBlock'
 import { FeaturesBlock, FeaturesBlockData } from './blocks/FeaturesBlock'
+import { SplitImageBlock, SplitImageBlockData } from './blocks/SplitImageBlock'
 import { ARTICLE_QUERY_RESULT, AccessibleImage } from '@/sanity.types';
 
 const components: Partial<PortableTextReactComponents> = {
@@ -14,7 +15,7 @@ const components: Partial<PortableTextReactComponents> = {
       </div>
     ),
     advertisingBlock: () => <div>[Advertising Block]</div>,
-    splitImageBlock: () => <div>[Split Image Block]</div>,
+    splitImageBlock: ({ value }: PortableTextTypeComponentProps<SplitImageBlockData>) => <SplitImageBlock data={value} />,
   },
 }
 

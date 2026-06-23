@@ -2,6 +2,7 @@ import { PAGE_QUERY_RESULT } from "../../sanity.types";
 import { HeroBlock } from "./blocks/HeroBlock";
 import { FeaturesBlock } from "./blocks/FeaturesBlock";
 import { TwoColumnLayoutBlock } from "./blocks/TwoColumnLayoutBlock";
+import { SplitImageBlock } from "./blocks/SplitImageBlock";
 
 type PageBuilderProps = {
   blocks: NonNullable<NonNullable<PAGE_QUERY_RESULT>["pageBuilder"]>;
@@ -22,6 +23,8 @@ export function PageBuilder({ blocks }: PageBuilderProps) {
             return <FeaturesBlock key={block._key || index} data={block} />;
           case "twoColumnLayout":
             return <TwoColumnLayoutBlock key={block._key || index} data={block} />;
+          case "splitImageBlock":
+            return <SplitImageBlock key={block._key || index} data={block} />;
           case "articleListBlock":
             return (
               <div key={block._key || index} className="p-4 border border-dashed border-gray-400 text-gray-500 text-center">
