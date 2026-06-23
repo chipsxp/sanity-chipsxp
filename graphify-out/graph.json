@@ -329,12 +329,21 @@
       "norm_label": "heroblock.tsx"
     },
     {
+      "label": "SplitImageBlock.tsx",
+      "file_type": "code",
+      "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\app\\components\\blocks\\SplitImageBlock.tsx",
+      "source_location": "L1",
+      "id": "c_users_manag_github_repo_sanity_chipsxp_app_components_blocks_splitimageblock_tsx",
+      "community": 28,
+      "norm_label": "splitimageblock.tsx"
+    },
+    {
       "label": "TwoColumnLayoutBlock.tsx",
       "file_type": "code",
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\app\\components\\blocks\\TwoColumnLayoutBlock.tsx",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_app_components_blocks_twocolumnlayoutblock_tsx",
-      "community": 28,
+      "community": 29,
       "norm_label": "twocolumnlayoutblock.tsx"
     },
     {
@@ -397,7 +406,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\lib\\client.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_lib_client_ts",
-      "community": 29,
+      "community": 30,
       "norm_label": "client.ts"
     },
     {
@@ -424,7 +433,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\lib\\live.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_lib_live_ts",
-      "community": 30,
+      "community": 31,
       "norm_label": "live.ts"
     },
     {
@@ -433,7 +442,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\lib\\queries.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_lib_queries_ts",
-      "community": 31,
+      "community": 32,
       "norm_label": "queries.ts"
     },
     {
@@ -442,7 +451,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\index.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_index_ts",
-      "community": 32,
+      "community": 33,
       "norm_label": "index.ts"
     },
     {
@@ -451,7 +460,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\documents\\article.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_documents_article_ts",
-      "community": 33,
+      "community": 34,
       "norm_label": "article.ts"
     },
     {
@@ -460,7 +469,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\documents\\comment.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_documents_comment_ts",
-      "community": 34,
+      "community": 35,
       "norm_label": "comment.ts"
     },
     {
@@ -469,7 +478,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\documents\\page.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_documents_page_ts",
-      "community": 35,
+      "community": 36,
       "norm_label": "page.ts"
     },
     {
@@ -478,7 +487,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\documents\\siteFooter.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_documents_sitefooter_ts",
-      "community": 36,
+      "community": 37,
       "norm_label": "sitefooter.ts"
     },
     {
@@ -487,7 +496,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\documents\\siteHeader.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_documents_siteheader_ts",
-      "community": 37,
+      "community": 38,
       "norm_label": "siteheader.ts"
     },
     {
@@ -496,7 +505,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\accessibleImage.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_accessibleimage_ts",
-      "community": 38,
+      "community": 39,
       "norm_label": "accessibleimage.ts"
     },
     {
@@ -505,7 +514,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\footer.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_footer_ts",
-      "community": 39,
+      "community": 40,
       "norm_label": "footer.ts"
     },
     {
@@ -514,7 +523,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\header.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_header_ts",
-      "community": 40,
+      "community": 41,
       "norm_label": "header.ts"
     },
     {
@@ -523,7 +532,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\portableText.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_portabletext_ts",
-      "community": 41,
+      "community": 42,
       "norm_label": "portabletext.ts"
     },
     {
@@ -532,7 +541,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\seo.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_seo_ts",
-      "community": 42,
+      "community": 43,
       "norm_label": "seo.ts"
     },
     {
@@ -541,7 +550,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\advertisingBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_advertisingblock_ts",
-      "community": 43,
+      "community": 44,
       "norm_label": "advertisingblock.ts"
     },
     {
@@ -550,7 +559,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\articleListBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_articlelistblock_ts",
-      "community": 44,
+      "community": 45,
       "norm_label": "articlelistblock.ts"
     },
     {
@@ -559,7 +568,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\authorBioBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_authorbioblock_ts",
-      "community": 45,
+      "community": 46,
       "norm_label": "authorbioblock.ts"
     },
     {
@@ -568,7 +577,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\faqBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_faqblock_ts",
-      "community": 46,
+      "community": 47,
       "norm_label": "faqblock.ts"
     },
     {
@@ -577,7 +586,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\featuresBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_featuresblock_ts",
-      "community": 47,
+      "community": 48,
       "norm_label": "featuresblock.ts"
     },
     {
@@ -586,7 +595,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\heroBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_heroblock_ts",
-      "community": 48,
+      "community": 49,
       "norm_label": "heroblock.ts"
     },
     {
@@ -595,7 +604,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\searchBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_searchblock_ts",
-      "community": 49,
+      "community": 50,
       "norm_label": "searchblock.ts"
     },
     {
@@ -604,7 +613,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\socialShareBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_socialshareblock_ts",
-      "community": 50,
+      "community": 51,
       "norm_label": "socialshareblock.ts"
     },
     {
@@ -613,7 +622,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\splitImageBlock.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_splitimageblock_ts",
-      "community": 51,
+      "community": 52,
       "norm_label": "splitimageblock.ts"
     },
     {
@@ -622,7 +631,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\sanity\\schemaTypes\\objects\\blocks\\twoColumnLayout.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_sanity_schematypes_objects_blocks_twocolumnlayout_ts",
-      "community": 52,
+      "community": 53,
       "norm_label": "twocolumnlayout.ts"
     },
     {
@@ -631,7 +640,7 @@
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\tests\\sanity-chipsxp.spec.ts",
       "source_location": "L1",
       "id": "c_users_manag_github_repo_sanity_chipsxp_tests_sanity_chipsxp_spec_ts",
-      "community": 53,
+      "community": 54,
       "norm_label": "sanity-chipsxp.spec.ts"
     },
     {
@@ -708,7 +717,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 54,
+      "community": 55,
       "norm_label": "claude repository commands",
       "id": "claude_commands"
     },
@@ -877,7 +886,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 55,
+      "community": 56,
       "norm_label": "path alias configuration (@/*)",
       "id": "claude_path_alias"
     },
@@ -916,7 +925,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 57,
       "norm_label": "development server setup",
       "id": "readme_getting_started"
     },
@@ -942,7 +951,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 57,
+      "community": 58,
       "norm_label": "font optimization with geist",
       "id": "readme_font_optimization"
     },
@@ -955,7 +964,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 58,
+      "community": 59,
       "norm_label": "deployment on vercel",
       "id": "readme_deployment"
     },
@@ -1059,7 +1068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 60,
       "norm_label": "tasks placeholder",
       "id": "index_card_unstructured_task_file_placeholder_tasks"
     },
@@ -1163,7 +1172,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 60,
+      "community": 61,
       "norm_label": "document svg icon",
       "id": "public_file_svg"
     },
@@ -1176,7 +1185,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 61,
+      "community": 62,
       "norm_label": "globe svg icon",
       "id": "public_globe_svg"
     },
@@ -1189,7 +1198,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 62,
+      "community": 63,
       "norm_label": "next.svg",
       "id": "next_svg"
     },
@@ -1202,7 +1211,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 63,
+      "community": 64,
       "norm_label": "vercel logo svg",
       "id": "public_vercel_svg"
     },
@@ -1215,7 +1224,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 64,
+      "community": 65,
       "norm_label": "window icon svg",
       "id": "window_svg"
     },

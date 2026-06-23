@@ -1,11 +1,11 @@
 # Graph Report - C:\Users\manag\Github-repo\sanity-chipsxp  (2026-06-22)
 
 ## Corpus Check
-- 49 files · ~603,234 words
+- 50 files · ~616,287 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 119 nodes · 61 edges · 65 communities detected
+- 120 nodes · 61 edges · 66 communities detected
 - Extraction: 77% EXTRACTED · 21% INFERRED · 2% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.83)
 - Token cost: 0 input · 0 output
 
@@ -75,6 +75,7 @@
 - [[_COMMUNITY_Community 62|Community 62]]
 - [[_COMMUNITY_Community 63|Community 63]]
 - [[_COMMUNITY_Community 64|Community 64]]
+- [[_COMMUNITY_Community 65|Community 65]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Key Configuration Files` - 6 edges
@@ -329,45 +330,49 @@ Nodes (0):
 
 ### Community 54 - "Community 54"
 Cohesion: 1.0
-Nodes (1): Claude Repository Commands
+Nodes (0): 
 
 ### Community 55 - "Community 55"
 Cohesion: 1.0
-Nodes (1): Path Alias Configuration (@/*)
+Nodes (1): Claude Repository Commands
 
 ### Community 56 - "Community 56"
 Cohesion: 1.0
-Nodes (1): Development Server Setup
+Nodes (1): Path Alias Configuration (@/*)
 
 ### Community 57 - "Community 57"
 Cohesion: 1.0
-Nodes (1): Font Optimization with Geist
+Nodes (1): Development Server Setup
 
 ### Community 58 - "Community 58"
 Cohesion: 1.0
-Nodes (1): Deployment on Vercel
+Nodes (1): Font Optimization with Geist
 
 ### Community 59 - "Community 59"
 Cohesion: 1.0
-Nodes (1): Tasks Placeholder
+Nodes (1): Deployment on Vercel
 
 ### Community 60 - "Community 60"
 Cohesion: 1.0
-Nodes (1): Document SVG Icon
+Nodes (1): Tasks Placeholder
 
 ### Community 61 - "Community 61"
 Cohesion: 1.0
-Nodes (1): Globe SVG Icon
+Nodes (1): Document SVG Icon
 
 ### Community 62 - "Community 62"
 Cohesion: 1.0
-Nodes (0): 
+Nodes (1): Globe SVG Icon
 
 ### Community 63 - "Community 63"
 Cohesion: 1.0
-Nodes (1): Vercel Logo SVG
+Nodes (0): 
 
 ### Community 64 - "Community 64"
+Cohesion: 1.0
+Nodes (1): Vercel Logo SVG
+
+### Community 65 - "Community 65"
 Cohesion: 1.0
 Nodes (1): Window Icon SVG
 
@@ -418,79 +423,81 @@ Nodes (1): Window Icon SVG
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Community 27`** (1 nodes): `HeroBlock.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 28`** (1 nodes): `TwoColumnLayoutBlock.tsx`
+- **Thin community `Community 28`** (1 nodes): `SplitImageBlock.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 29`** (1 nodes): `client.ts`
+- **Thin community `Community 29`** (1 nodes): `TwoColumnLayoutBlock.tsx`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 30`** (1 nodes): `live.ts`
+- **Thin community `Community 30`** (1 nodes): `client.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 31`** (1 nodes): `queries.ts`
+- **Thin community `Community 31`** (1 nodes): `live.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 32`** (1 nodes): `index.ts`
+- **Thin community `Community 32`** (1 nodes): `queries.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 33`** (1 nodes): `article.ts`
+- **Thin community `Community 33`** (1 nodes): `index.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 34`** (1 nodes): `comment.ts`
+- **Thin community `Community 34`** (1 nodes): `article.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 35`** (1 nodes): `page.ts`
+- **Thin community `Community 35`** (1 nodes): `comment.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 36`** (1 nodes): `siteFooter.ts`
+- **Thin community `Community 36`** (1 nodes): `page.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 37`** (1 nodes): `siteHeader.ts`
+- **Thin community `Community 37`** (1 nodes): `siteFooter.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 38`** (1 nodes): `accessibleImage.ts`
+- **Thin community `Community 38`** (1 nodes): `siteHeader.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 39`** (1 nodes): `footer.ts`
+- **Thin community `Community 39`** (1 nodes): `accessibleImage.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 40`** (1 nodes): `header.ts`
+- **Thin community `Community 40`** (1 nodes): `footer.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 41`** (1 nodes): `portableText.ts`
+- **Thin community `Community 41`** (1 nodes): `header.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 42`** (1 nodes): `seo.ts`
+- **Thin community `Community 42`** (1 nodes): `portableText.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 43`** (1 nodes): `advertisingBlock.ts`
+- **Thin community `Community 43`** (1 nodes): `seo.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 44`** (1 nodes): `articleListBlock.ts`
+- **Thin community `Community 44`** (1 nodes): `advertisingBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 45`** (1 nodes): `authorBioBlock.ts`
+- **Thin community `Community 45`** (1 nodes): `articleListBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 46`** (1 nodes): `faqBlock.ts`
+- **Thin community `Community 46`** (1 nodes): `authorBioBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 47`** (1 nodes): `featuresBlock.ts`
+- **Thin community `Community 47`** (1 nodes): `faqBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 48`** (1 nodes): `heroBlock.ts`
+- **Thin community `Community 48`** (1 nodes): `featuresBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 49`** (1 nodes): `searchBlock.ts`
+- **Thin community `Community 49`** (1 nodes): `heroBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 50`** (1 nodes): `socialShareBlock.ts`
+- **Thin community `Community 50`** (1 nodes): `searchBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 51`** (1 nodes): `splitImageBlock.ts`
+- **Thin community `Community 51`** (1 nodes): `socialShareBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 52`** (1 nodes): `twoColumnLayout.ts`
+- **Thin community `Community 52`** (1 nodes): `splitImageBlock.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 53`** (1 nodes): `sanity-chipsxp.spec.ts`
+- **Thin community `Community 53`** (1 nodes): `twoColumnLayout.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 54`** (1 nodes): `Claude Repository Commands`
+- **Thin community `Community 54`** (1 nodes): `sanity-chipsxp.spec.ts`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 55`** (1 nodes): `Path Alias Configuration (@/*)`
+- **Thin community `Community 55`** (1 nodes): `Claude Repository Commands`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 56`** (1 nodes): `Development Server Setup`
+- **Thin community `Community 56`** (1 nodes): `Path Alias Configuration (@/*)`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 57`** (1 nodes): `Font Optimization with Geist`
+- **Thin community `Community 57`** (1 nodes): `Development Server Setup`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 58`** (1 nodes): `Deployment on Vercel`
+- **Thin community `Community 58`** (1 nodes): `Font Optimization with Geist`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 59`** (1 nodes): `Tasks Placeholder`
+- **Thin community `Community 59`** (1 nodes): `Deployment on Vercel`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 60`** (1 nodes): `Document SVG Icon`
+- **Thin community `Community 60`** (1 nodes): `Tasks Placeholder`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 61`** (1 nodes): `Globe SVG Icon`
+- **Thin community `Community 61`** (1 nodes): `Document SVG Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 62`** (1 nodes): `next.svg`
+- **Thin community `Community 62`** (1 nodes): `Globe SVG Icon`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 63`** (1 nodes): `Vercel Logo SVG`
+- **Thin community `Community 63`** (1 nodes): `next.svg`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Community 64`** (1 nodes): `Window Icon SVG`
+- **Thin community `Community 64`** (1 nodes): `Vercel Logo SVG`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Community 65`** (1 nodes): `Window Icon SVG`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 
 ## Suggested Questions
@@ -503,7 +510,7 @@ _Questions this graph is uniquely positioned to answer:_
 - **Why does `Architectural Decisions Registry` connect `Community 0` to `Community 7`?**
   _High betweenness centrality (0.009) - this node is a cross-community bridge._
 - **Why does `Sanity Integration Data Flow` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `ADR-001: Embed Sanity Studio Inside Next.js App` (e.g. with `Project Overview (Next.js 16 + Sanity v5)` and `Suggested Questions Section`) actually correct?**
   _`ADR-001: Embed Sanity Studio Inside Next.js App` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Next.js Agent Rules`, `Memory-Aware Protocols`, `Claude Repository Commands` to the rest of the system?**
