@@ -1,7 +1,7 @@
 # Graph Report - C:\Users\manag\Github-repo\sanity-chipsxp  (2026-06-22)
 
 ## Corpus Check
-- 50 files · ~616,426 words
+- 50 files · ~616,341 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary

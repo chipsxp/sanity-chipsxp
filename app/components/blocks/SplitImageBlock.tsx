@@ -32,8 +32,8 @@ export function SplitImageBlock({ data }: { data: SplitImageBlockData }) {
         <Flex direction={{ initial: "column", md: isImageLeft ? "row" : "row-reverse" }} gap="6" align="center">
           {imageElement && (
             <Box style={{ flex: 1, display: "flex", justifyContent: "center", width: "100%" }}>
-              {data.linkUrl ? (
-                <a href={data.linkUrl} target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", maxWidth: "500px" }}>
+              {data.image?.link ? (
+                <a href={data.image.link} target="_blank" rel="noopener noreferrer" style={{ display: "block", width: "100%", maxWidth: "500px" }}>
                   {imageElement}
                 </a>
               ) : (

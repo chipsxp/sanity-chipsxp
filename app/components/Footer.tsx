@@ -26,10 +26,10 @@ export function Footer({ data }: { data: FooterData }) {
     <Box asChild p="6" mt="9" className="border-t border-gray-200" style={footerStyle}>
       <footer>
         <Grid columns={{ initial: '1fr', md: 'repeat(3, 1fr)' }} gap="6" align="start">
-          
+
           {/* Column 1: Links & Copyright */}
           <Flex direction="column" gap="4" align={{ initial: 'center', md: 'start' }}>
-        
+
             {data.footerLinks && data.footerLinks.length > 0 && (
               <nav>
                 <Flex direction={{ initial: 'column', sm: 'row' }} gap="4" wrap="wrap" justify={{ initial: 'center', md: 'start' }} align="center">
@@ -60,19 +60,31 @@ export function Footer({ data }: { data: FooterData }) {
           {/* Column 3: Custom Block 2 & Image/Logos */}
           <Flex direction="column" gap="4" align={{ initial: 'center', md: 'start' }}>
             <Text size="3" weight="bold" style={textColor ? { color: textColor } : {}}>Contact / Media</Text>
-            
+
             {data.logos && data.logos.length > 0 && (
               <Flex direction="column" gap="4" justify={{ initial: 'center', md: 'start' }} align={{ initial: 'center', md: 'start' }} width="100%">
                 {data.logos.map((logo: FooterLogo, index: number) => (
                   logo.asset && (
                     <Box key={logo._key || index} className="w-full max-w-[300px] aspect-video relative overflow-hidden rounded-md shadow-sm">
-                      <Image
-                        src={urlFor(logo).url()}
-                        alt={logo.alt || "Footer Logo"}
-                        fill
-                        sizes="(max-width: 300px) 100vw, 300px"
-                        className="object-cover opacity-90 hover:opacity-100 transition-opacity"
-                      />
+                      {logo.link ? (
+                        <Link href={logo.link} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
+                          <Image
+                            src={urlFor(logo).url()}
+                            alt={logo.alt || "Footer Logo"}
+                            fill
+                            sizes="(max-width: 300px) 100vw, 300px"
+                            className="object-cover opacity-90 hover:opacity-100 transition-opacity"
+                          />
+                        </Link>
+                      ) : (
+                        <Image
+                          src={urlFor(logo).url()}
+                          alt={logo.alt || "Footer Logo"}
+                          fill
+                          sizes="(max-width: 300px) 100vw, 300px"
+                          className="object-cover opacity-90 hover:opacity-100 transition-opacity"
+                        />
+                      )}
                     </Box>
                   )
                 ))}

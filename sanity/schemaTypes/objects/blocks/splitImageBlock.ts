@@ -27,12 +27,6 @@ export const splitImageBlock = defineType({
       name: 'description',
       title: 'Description',
       type: 'text',
-    }),
-    defineField({
-      name: 'linkUrl',
-      title: 'Link URL',
-      type: 'url',
-      description: 'Optional URL to make the image clickable'
     })
   ]
 })

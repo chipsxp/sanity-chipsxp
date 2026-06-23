@@ -422,6 +422,13 @@
             "type": "string"
           },
           "optional": true
+        },
+        "link": {
+          "type": "objectAttribute",
+          "value": {
+            "type": "string"
+          },
+          "optional": true
         }
       }
     }
@@ -1445,13 +1452,6 @@
           "optional": true
         },
         "description": {
-          "type": "objectAttribute",
-          "value": {
-            "type": "string"
-          },
-          "optional": true
-        },
-        "linkUrl": {
           "type": "objectAttribute",
           "value": {
             "type": "string"
