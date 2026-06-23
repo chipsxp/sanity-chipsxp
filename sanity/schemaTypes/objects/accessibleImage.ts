@@ -17,12 +17,6 @@ export const accessibleImage = defineType({
       title: 'ARIA Label',
       type: 'string',
       description: 'Optional WAI-ARIA label for screen readers if the image has complex interactions.',
-    }),
-    defineField({
-      name: 'link',
-      title: 'Link URL',
-      type: 'url',
-      description: 'Optional URL if the image should be clickable.',
     })
   ]
 })

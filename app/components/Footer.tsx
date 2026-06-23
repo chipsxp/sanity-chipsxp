@@ -66,25 +66,13 @@ export function Footer({ data }: { data: FooterData }) {
                 {data.logos.map((logo: FooterLogo, index: number) => (
                   logo.asset && (
                     <Box key={logo._key || index} className="w-full max-w-[300px] aspect-video relative overflow-hidden rounded-md shadow-sm">
-                      {logo.link ? (
-                        <Link href={logo.link} target="_blank" rel="noopener noreferrer" className="block w-full h-full relative">
-                          <Image
-                            src={urlFor(logo).url()}
-                            alt={logo.alt || "Footer Logo"}
-                            fill
-                            sizes="(max-width: 300px) 100vw, 300px"
-                            className="object-cover opacity-90 hover:opacity-100 transition-opacity"
-                          />
-                        </Link>
-                      ) : (
-                        <Image
-                          src={urlFor(logo).url()}
-                          alt={logo.alt || "Footer Logo"}
-                          fill
-                          sizes="(max-width: 300px) 100vw, 300px"
-                          className="object-cover opacity-90 hover:opacity-100 transition-opacity"
-                        />
-                      )}
+                      <Image
+                        src={urlFor(logo).url()}
+                        alt={logo.alt || "Footer Logo"}
+                        fill
+                        sizes="(max-width: 300px) 100vw, 300px"
+                        className="object-cover opacity-90 hover:opacity-100 transition-opacity"
+                      />
                     </Box>
                   )
                 ))}

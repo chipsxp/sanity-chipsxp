@@ -81,7 +81,6 @@ export type AccessibleImage = {
   crop?: SanityImageCrop;
   alt?: string;
   ariaLabel?: string;
-  link?: string;
 };
 
 export type Slug = {
@@ -632,7 +631,6 @@ export type PAGE_QUERY_RESULT = {
       crop?: SanityImageCrop;
       alt?: string;
       ariaLabel?: string;
-      link?: string;
     } | null;
     favicon: {
       asset: {
@@ -703,7 +701,6 @@ export type PAGE_QUERY_RESULT = {
           crop?: SanityImageCrop;
           alt?: string;
           ariaLabel?: string;
-          link?: string;
         } | null;
         affiliateLink?: string;
         description?: string;
@@ -748,7 +745,6 @@ export type PAGE_QUERY_RESULT = {
           crop?: SanityImageCrop;
           alt?: string;
           ariaLabel?: string;
-          link?: string;
         } | null;
       }
     | {
@@ -795,7 +791,6 @@ export type PAGE_QUERY_RESULT = {
           crop?: SanityImageCrop;
           alt?: string;
           ariaLabel?: string;
-          link?: string;
         } | null;
       }
     | {
@@ -830,7 +825,6 @@ export type PAGE_QUERY_RESULT = {
           crop?: SanityImageCrop;
           alt?: string;
           ariaLabel?: string;
-          link?: string;
         } | null;
         pitch?: string;
         answers?: string;
@@ -880,7 +874,6 @@ export type PAGE_QUERY_RESULT = {
           crop?: SanityImageCrop;
           alt?: string;
           ariaLabel?: string;
-          link?: string;
         } | null;
       }
     | {
@@ -916,7 +909,6 @@ export type PAGE_QUERY_RESULT = {
           crop?: SanityImageCrop;
           alt?: string;
           ariaLabel?: string;
-          link?: string;
         } | null;
         description?: string;
         linkUrl?: string;
@@ -958,7 +950,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
               affiliateLink?: string;
               description?: string;
@@ -1003,7 +994,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
             }
           | {
@@ -1050,7 +1040,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
             }
           | {
@@ -1098,7 +1087,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
             }
         > | null;
@@ -1135,7 +1123,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
               affiliateLink?: string;
               description?: string;
@@ -1180,7 +1167,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
             }
           | {
@@ -1227,7 +1213,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
             }
           | {
@@ -1275,7 +1260,6 @@ export type PAGE_QUERY_RESULT = {
                 crop?: SanityImageCrop;
                 alt?: string;
                 ariaLabel?: string;
-                link?: string;
               } | null;
             }
         > | null;
@@ -1321,7 +1305,6 @@ export type PAGE_QUERY_RESULT = {
       crop?: SanityImageCrop;
       alt?: string;
       ariaLabel?: string;
-      link?: string;
     }> | null;
     footerLinks?: Array<{
       label?: string;

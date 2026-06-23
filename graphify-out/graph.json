@@ -188,7 +188,7 @@
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\app\\layout.tsx",
-      "source_location": "L20",
+      "source_location": "L19",
       "id": "layout_rootlayout",
       "community": 8,
       "norm_label": "rootlayout()"
@@ -1429,7 +1429,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\manag\\Github-repo\\sanity-chipsxp\\app\\layout.tsx",
-      "source_location": "L20",
+      "source_location": "L19",
       "weight": 1.0,
       "_src": "c_users_manag_github_repo_sanity_chipsxp_app_layout_tsx",
       "_tgt": "layout_rootlayout",
