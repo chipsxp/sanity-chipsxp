@@ -267,6 +267,7 @@ export type SplitImageBlock = {
   imagePosition?: "left" | "right";
   image?: AccessibleImage;
   description?: string;
+  linkUrl?: string;
 };
 
 export type SocialShareBlock = {
@@ -918,6 +919,7 @@ export type PAGE_QUERY_RESULT = {
           link?: string;
         } | null;
         description?: string;
+        linkUrl?: string;
       }
     | {
         _key: string;

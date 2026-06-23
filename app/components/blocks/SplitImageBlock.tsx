@@ -8,7 +8,7 @@ export type SplitImageBlockData = Extract<
 >;
 
 export function SplitImageBlock({ data }: { data: SplitImageBlockData }) {
-  const imageUrl = data.image?.asset ? urlFor(data.image).url() : null;
+  const imageUrl = data.image?.asset ? urlFor(data.image).url() : undefined;
   const isImageLeft = data.imagePosition === "left";
 
   const imageElement = imageUrl ? (
@@ -24,7 +24,7 @@ export function SplitImageBlock({ data }: { data: SplitImageBlockData }) {
         margin: "0 auto"
       }}
     />
-  ) : null;
+  ) : undefined;
 
   return (
     <Box py="9">

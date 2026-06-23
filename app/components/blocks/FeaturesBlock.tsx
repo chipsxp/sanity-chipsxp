@@ -8,7 +8,7 @@ export type FeaturesBlockData = Extract<
 >;
 
 export function FeaturesBlock({ data }: { data: FeaturesBlockData }) {
-  const imageUrl = data.featureImage?.asset ? urlFor(data.featureImage).url() : null;
+  const imageUrl = data.featureImage?.asset ? urlFor(data.featureImage).url() : undefined;
 
   return (
     <Container size="3" py="7">

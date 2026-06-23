@@ -11,7 +11,7 @@ type PageBuilderProps = {
 type BlockType = NonNullable<NonNullable<PAGE_QUERY_RESULT>["pageBuilder"]>[number];
 
 export function PageBuilder({ blocks }: PageBuilderProps) {
-  if (!blocks || blocks.length === 0) return null;
+  if (!blocks || blocks.length === 0) return <></>;
 
   return (
     <div className="flex flex-col gap-12">

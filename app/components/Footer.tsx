@@ -10,7 +10,7 @@ type FooterLogo = NonNullable<NonNullable<FooterData>["logos"]>[number];
 type SanityColor = { hex?: string };
 
 export function Footer({ data }: { data: FooterData }) {
-  if (!data) return null;
+  if (!data) return <></>;
 
   const bgColor = (data.backgroundColor as SanityColor | undefined)?.hex;
   const textColor = (data.textColor as SanityColor | undefined)?.hex;

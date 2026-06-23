@@ -8,7 +8,7 @@ export type HeroBlockData = Extract<
 >;
 
 export function HeroBlock({ data }: { data: HeroBlockData }) {
-  const imageUrl = data.heroImage?.asset ? urlFor(data.heroImage).url() : null;
+  const imageUrl = data.heroImage?.asset ? urlFor(data.heroImage).url() : undefined;
 
   return (
     <Box py="9" style={{ backgroundColor: "var(--accent-a3)" }}>

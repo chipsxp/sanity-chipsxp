@@ -51,7 +51,7 @@ export default async function HomePage() {
         <Box className="text-center" style={{ textAlign: "center" }}>
           <Heading size="8" mb="4">Welcome to your Sanity Pagebuilder!</Heading>
           <Text size="5" color="gray">
-            To see content here, create a new "Page" document in the Sanity Studio with the slug "home".
+            To see content here, create a new &quot;Page&quot; document in the Sanity Studio with the slug &quot;home&quot;.
           </Text>
         </Box>
       </Container>

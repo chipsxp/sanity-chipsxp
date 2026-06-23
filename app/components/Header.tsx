@@ -16,7 +16,7 @@ export function Header({ data }: { data: HeaderData }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const router = useRouter();
 
-  if (!data) return null;
+  if (!data) return <></>;
 
   const maxVisibleLinks = 3;
   const visibleLinks = data.menuLinks?.slice(0, maxVisibleLinks) || [];

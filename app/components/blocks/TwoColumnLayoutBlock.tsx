@@ -11,7 +11,7 @@ type TwoColumnLayoutData = Extract<
 type PageBuilderBlocks = NonNullable<NonNullable<PAGE_QUERY_RESULT>["pageBuilder"]>;
 
 export function TwoColumnLayoutBlock({ data }: { data: TwoColumnLayoutData }) {
-  if (!data) return null;
+  if (!data) return <></>;
 
   return (
     <Box className="w-full my-8">

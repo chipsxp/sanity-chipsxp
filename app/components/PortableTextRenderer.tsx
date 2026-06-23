@@ -22,6 +22,6 @@ const components: Partial<PortableTextReactComponents> = {
 type ArticleBody = NonNullable<ARTICLE_QUERY_RESULT>["body"];
 
 export function PortableTextRenderer({ value }: { value: ArticleBody }) {
-  if (!value) return null;
+  if (!value) return <></>;
   return <PortableText value={value} components={components} />
 }
